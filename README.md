@@ -25,7 +25,34 @@ After checking all integers in the range, if none of them triggered the "not tru
 
 
 2.
+
+
+
+
+
+
+
+
 3.
-4.
+
+
+
+
+
+
+
+4. Entropy
+
+Shannon entropy, named after Claude Shannon, is a measure of the amount of uncertainty or information content associated with a random variable. In information theory, it is used to quantify the average amount of surprise or unpredictability inherent in a set of possible outcomes.
+
+The code starts by importing the necessary libraries. matplotlib.pyplot is used for plotting, and numpy is used for numerical operations.
+
+We follow this by defining a function named entropy that takes a probability p as an argument and calculates the Shannon entropy using the provided probabilities for the outcomes (0, 1, and 2 heads).
+
+We generates a range of probability values p_values from 0 to 1 inclusive using 'numpy.linspace'. In this case, it creates 100 equally spaced values between 0 and 1.
+
+Using a list comprehension to we calculate the Shannon entropy for each probability in p_values by calling the entropy function.
+
+The code uses matplotlib.pyplot to create a plot. It plots the calculated entropy values against the probability values. It also adds labels, a title, a legend
 
 By: Anthony Mc Garry
