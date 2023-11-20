@@ -1,7 +1,11 @@
 # Data Analysis
 This is the repository for the data analysis module.
 
-The purpose of the repo is to store all work relating to this module
+The purpose of the repo is to store all work relating to this module. 
+
+The tasks were built using juypter notebooks within VSCode. All relevant python packages required to run this notebook are in built into the Anaconda install. 
+
+When running the notebook ensure that the Anaconda package is the interpreter used.
 
 1. Collatz Conjecture
 
@@ -56,6 +60,21 @@ We generates a range of probability values p_values from 0 to 1 inclusive using 
 
 Using a list comprehension to we calculate the Shannon entropy for each probability in p_values by calling the entropy function.
 
-The code uses matplotlib.pyplot to create a plot. It plots the calculated entropy values against the probability values. It also adds labels, a title, a legend
+The code uses matplotlib.pyplot to create a plot. It plots the calculated entropy values against the probability values. It also adds labels, a title, a legend.
+
+
+5. Plot of Variables
+
+Create an appropriate individual plot for each of the variables in the penguin data set.
+
+Using the matplotlib and seaborn pie plots and dis plots were used to show the distribution of the data for the below variable
+
+--> Sex & Species (pie plot)
+
+--> Flipper and Bill Variables (dis plot)
+
+These plots are most relevant as they map the variables side by side showing the variance in size of ach species across these variables.
+
+
 
 By: Anthony Mc Garry
