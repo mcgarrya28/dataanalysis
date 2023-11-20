@@ -24,12 +24,13 @@ If x is not equal to 1 after the loop, it means that the Collatz Conjecture was 
 After checking all integers in the range, if none of them triggered the "not true" condition, it prints a message confirming that the Collatz Conjecture is true for all numbers up to the specified limit.
 
 
-2.
+2. Pengiun Dataset Variables
 
+Give an overview of the famous penguins data set,explaining the types of variables it contains. Suggest the types of variables that should be used to model them in Python, explaining your rationale.
 
+The tasks first outlines the data with the .info and .describe method showing the stats and data types.
 
-
-
+It then briefly describes the most relevant variable to suit each element of of the data
 
 
 
